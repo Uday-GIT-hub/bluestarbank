@@ -1,0 +1,243 @@
+body{
+    font-family:Tahoma, Verdana, sans-serif;
+    background-color: rgb(232, 225, 250);
+}
+.navbar{
+    background-color: #c9eff8;
+    border:0;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    font-size: 17px;
+    float:right;
+}
+.navbar-nav>li{
+    cursor: pointer;
+    padding :10px;
+}
+
+.navbar-nav>li:hover{
+    background-color: rgb(238, 238, 238);
+}
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 20px;
+    padding:25px;
+
+}
+.icon-bar{
+    background-color: black;
+}
+.row{
+    padding:0;
+    margin:0;
+   
+}
+.img-div{
+    margin-top:0;
+    padding:10px;
+}
+.heading-div{
+    margin-top:0;
+    padding:10% 30px 10% 20px; 
+}
+hr{
+    max-width:350px;
+    border-color:black;
+    border-width: 3px;
+}
+p{
+    font-size:19px;
+}
+.container1{
+    margin: 20px 30px;
+}
+.heading-div>button{
+    color:black;
+    font-size:19px;
+    background-color: rgb(204, 247, 156);
+}
+.heading-div>button:hover{
+    background-color: rgb(154, 250, 51);
+}
+.cards{
+    padding:10px;
+}
+.cards-btn{
+    color:black;
+    font-size:19px;
+    font-weight: 500;
+    
+}
+.btn1{
+    
+    background-color: #f8eaa3;
+}
+.btn1:hover{
+    background-color:#ffe250;;
+}
+
+.btn2{
+   
+    background-color:#c6f5a5;
+}
+.btn2:hover{
+    background-color:rgb(154, 250, 51);
+}
+.btn3{
+  
+    background-color:#faafc9;
+}
+.btn3:hover{
+    background-color:#fc76a5;
+}
+
+.icons{
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    filter: grayscale(1) opacity(.8);
+}
+.icons:hover{
+    filter: grayscale(0) opacity(1);
+    transform: scale(1.2);
+}
+.cards1{
+    padding:20px;
+}
+.modal{
+    margin:150px 0;
+    
+}
+.modal-body{
+    background-color: rgba(243, 243, 243, 0.9);
+}
+
+input[type=text] ,input[type=password] ,input[type=email],select
+{  
+    width:100%;
+    display: inline-block;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+         
+}
+button[type=submit]
+{
+    font-size: 16px;
+    font-weight:600;
+    color:black;
+    width:100%;
+}
+label{
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+} 
+.table-div{
+    padding:0 50px 30px 50px;
+}
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  background-color:#222f3e;
+  width: 100%;
+  color:rgb(196, 196, 196);
+  
+}
+
+td{
+    font-size:16px;
+    font-weight:600;
+}
+td, th {
+  border: 2px solid rgb(196, 196, 196);
+  padding: 10px;
+}
+
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  font-size:19px;
+  font-weight:700;
+  background-color:#c9eff8;
+  color:#222f3e;
+  
+}
+
+.send-table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:black;
+    font-size:18px;
+}
+
+.container2{
+    margin:0 22% 0 22%;
+}
+footer {
+    background:#c9eff8;
+}
+
+footer p {
+    margin: 0;
+    padding: 30px 0;
+}
+
+@media screen and (max-width:1200px) {
+    .heading-div{
+        padding:10px 30px 10px 20px; 
+    }
+    hr{
+        max-width:550px;
+    }
+    .container2{
+    margin:0 16% 0 16%;
+}
+}
+@media screen and (max-width:768px) {
+    
+    .navbar-brand{
+        padding-left: 0;
+        font-size:16px;
+    }
+    .navbar-nav{
+        float:none;
+    }
+    .container1{
+        margin: 0 10px;
+    }
+    .table-div{
+    padding:0 20px 30px 20px;
+    }
+    .container2{
+    margin:0 10% 0 10%;
+}
+
+}
+
+
+@media screen and (max-width:635px) {
+    .table-div{
+    padding:0 5px 20px 5px;
+    }
+    th{
+        font-size:16px;
+    }
+    td{
+        font-size:14px;
+    }
+    select{
+        font-size:14px;
+    }
+    .container2{
+    margin:0 10px 0 10px;
+}
+}
