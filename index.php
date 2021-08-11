@@ -138,7 +138,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="heading text-center"><strong>Why Public Bank?</strong></h2>
+                    <h2 class="heading text-center"><strong>Why Blue Star Bank?</strong></h2>
                     <hr>
                 </div>
                 <div class="col-lg-3 cards1 text-center">
